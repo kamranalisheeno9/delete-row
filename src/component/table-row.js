@@ -59,7 +59,7 @@ const TableRow = () => {
     <div>
       <Container>
         <Table hover size="sm">
-          <thead>
+          <thead className={Basic ?  "hide" : "show"}>
             <tr>
               <th >Client</th>
               <th >Owners</th>
